@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/ventas")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://panaderia-frontend-ten.vercel.app")
 public class VentaController {
 
     @Autowired

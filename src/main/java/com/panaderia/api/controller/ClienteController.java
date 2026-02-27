@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/clientes")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://panaderia-frontend-ten.vercel.app")
 public class ClienteController {
 
     @Autowired

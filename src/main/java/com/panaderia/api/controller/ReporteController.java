@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/reportes")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://panaderia-frontend-ten.vercel.app")
 public class ReporteController {
 
     @Autowired private ProductoRepository productoRepository;
