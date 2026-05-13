@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "https://panaderia-frontend-ten.vercel.app")
+@CrossOrigin(origins = {"https://panaderia-frontend-ten.vercel.app","http://localhost:5174"})
 public class ProductoController {
 
     @Autowired
